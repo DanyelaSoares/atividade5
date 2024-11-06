@@ -1,0 +1,13 @@
+/* Fundo de página com gradiente suave */
+body {
+    background: linear-gradient(135deg, #e0f7fa, #80deea, #26c6da, #00acc1);
+    background-size: 200% 200%;
+    animation: gradientAnimation 10s ease infinite;
+}
+
+/* Animação suave no fundo */
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
